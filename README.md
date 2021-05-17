@@ -19,23 +19,27 @@ code a.c
 
 --> Copy & Paste
 
-#include <stdio.h>
-int main()
-{
+    #include<stdio.h>
+    int main()
+    {
     
-    int a = 10, b = 5;
-    int c = a + b       // error here
-    puts(c);            // error here
+        int a = 10, b = 5;
+        int c = a + b       // error here
+        puts(c);            // error here
 
-    return 69;
-}
+        return 69;
+    }
 
 --> Search on the VsCode (wsl) extension:
 
 -> Clang
+
 -> Code Runner
+
 -> Path Intellisense
+
 -> Statusbar error
+
 -> Kite ~(optional)~
 
 ## Done ##
