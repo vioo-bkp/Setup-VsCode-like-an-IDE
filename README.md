@@ -22,6 +22,7 @@ code a.c
 #include <stdio.h>
 int main()
 {
+    
     int a = 10, b = 5;
     int c = a + b       // error here
     puts(c);            // error here
