@@ -2,19 +2,19 @@
 
 ## Setup clang WSL / Ubuntu / Linux / Debian ##
 
-sudo apt update && sudo apt upgrade
+    sudo apt update && sudo apt upgrade
 
-sudo apt install gcc && sudo apt install g++
+    sudo apt install gcc && sudo apt install g++
 
-sudo apt install clang-9
+    sudo apt install clang-9
 
 --> This will install clangd as /usr/bin/clangd-9. Make it the default clangd:
 
-sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-9 100
+    sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-9 100
 
 ## Setup clang VsCode like an IDE ##
 
-touch a.c && code a.c
+    touch a.c && code a.c
 
 --> Copy & Paste
 
@@ -31,15 +31,15 @@ touch a.c && code a.c
 
 --> Search on the VsCode (wsl) extension:
 
--> Clang
+    -> Clang
 
--> Code Runner
+    -> Code Runner
 
--> Path Intellisense
+    -> Path Intellisense
 
--> Statusbar error
+    -> Statusbar error
 
--> Kite ~(optional)~
+    -> Kite ~(optional)~
 
 ## Done ##
 
