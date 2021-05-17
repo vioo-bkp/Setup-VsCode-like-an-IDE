@@ -14,8 +14,7 @@ sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-9 100
 
 ## Setup clang VsCode like an IDE ##
 
-touch a.c
-code a.c
+touch a.c && code a.c
 
 --> Copy & Paste
 
